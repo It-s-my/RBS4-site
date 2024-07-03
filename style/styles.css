@@ -1,0 +1,156 @@
+/* Стили для основного контейнера страницы */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #2C231E;
+}
+/* Стили для контейнера с содержимым */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    padding: 20px;
+    width: 1100px;
+    height: 602px;
+    background-color: #000000;
+    border-radius: 25px;
+}
+/* Стили для меню */
+.menu{
+    display: flex;
+
+    width: 1100px;
+    height: 71px;
+    margin-left: 28px;
+}
+/* Стили для кнопки "Назад" */
+.back-button {
+    width: 70px;
+    height: 71px;
+    margin-left: 35px;
+    background-image: url('../img/Vector.png');
+    background-size: cover;
+    background-position: center;
+}
+/* Стили для текста сортировки */
+.sort-text{
+    margin-bottom: 15px;
+    margin-left: 14px;
+    color: white;
+}
+/* Стили для блока поиска и фильтрации */
+.siarch{
+    width: 758px;
+    height: 71px;
+    background-color: #E2B357;
+    margin-left: 35px;
+    border-radius: 25px;
+}
+/* Стили для контейнера поиска и фильтрации */
+.siarch-container{
+    display: flex;
+    width: 726px;
+    height: 43px;
+    background-color: white;
+    margin: 15px;
+    border-radius:25px ;
+}
+/* Стили для директории */
+.directory{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+/* Стили для кнопки сортировки */
+.button-sort{
+    width: 106px;
+    height: 71px;
+    background-color: #E2B357;
+    margin-left: 33px;
+    border-radius: 25px;
+}
+/* Стили для нижнего блока */
+.bottom-block {
+    width: 1000px;
+    height: 500px;
+    background-color: #E2B357;
+    margin-top:20px ;
+    border-radius: 25px;
+}
+/* Стили для блока файла */
+.file-block{
+    width: 920px;
+    height: 43px;
+    background-color: #FFFF;
+    margin-top:35px;
+    margin-left: 35px;
+    border-radius: 25px;
+}
+
+/* Стили для текстового блока */
+.text-block{
+    width: 920px;
+    height: 43px;
+    margin-top:0px;
+    margin-left: 0px;
+    border-radius: 25px;
+    display: flex;
+}
+/* Стили для разделителей текстового блока */
+.Type{
+    margin: 50px;
+    color: white;
+}
+.Name{
+    margin: 50px;
+    margin-left: 100px;
+    color: white;
+}
+.Size{
+    margin: 50px;
+    margin-left: 550px;
+    color: white;
+}
+/* Стили для иконки файла */
+.file{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 25px;
+    margin-top: 10px;
+    height: 24px;
+    width: 24px;
+    background-image: url('../img/Vector-file.png');
+}
+.dir{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 25px;
+    margin-top: 10px;
+    height: 24px;
+    width: 24px;
+    background-image: url('../img/Vector-dir.png');
+}
+.file-name{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 155px;
+    margin-top: 13px;
+
+}
+.size-num{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 615px;
+    margin-top: 13px;
+}
+
+.size-num-file{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 590px;
+    margin-top: 13px;
+}
